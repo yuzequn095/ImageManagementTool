@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.neu.zequn.control.ReadmePageController">
+   <children>
+      <Text fill="#a42525" layoutX="187.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="README" textAlignment="CENTER" wrappingWidth="224.97509765625">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <CheckBox layoutX="39.0" layoutY="66.0" mnemonicParsing="false" selected="true" text=" Use JavaFX for GUI" />
+      <Text fill="#942a2a" layoutX="168.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check List For INFO 5100 Final Project " textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="back_btn" layoutX="531.0" layoutY="361.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="BACK" />
+      <CheckBox layoutX="36.0" layoutY="90.0" mnemonicParsing="false" selected="true" text="Save class diagram named &quot;class-diagram.png&quot; in &quot;/ImageManagementTool/graph&quot; folder" />
+      <CheckBox layoutX="39.0" layoutY="117.0" mnemonicParsing="false" selected="true" text="Utilized inheritance, encapsulation and interfaces (model package)" />
+      <CheckBox layoutX="36.0" layoutY="142.0" mnemonicParsing="false" selected="true" text="Utilized Singleton Design Pattern and Factory Design Pattern (factory package)" />
+      <CheckBox layoutX="39.0" layoutY="169.0" mnemonicParsing="false" selected="true" text="Every class and functions be commented" />
+      <CheckBox layoutX="39.0" layoutY="200.0" mnemonicParsing="false" selected="true" text="Save Screenshots in &quot;/ImageManagementTool/graph&quot; folder " />
+      <CheckBox layoutX="39.0" layoutY="226.0" mnemonicParsing="false" selected="true" text="Utilized Try-Catch Exception handlers (control package)" />
+      <CheckBox layoutX="37.0" layoutY="253.0" mnemonicParsing="false" selected="true" text="Submitted to GitHub (id: 002134060-Zequn-Yu) " />
+      <CheckBox layoutX="36.0" layoutY="278.0" mnemonicParsing="false" selected="true" text="Allow users to upload images from file system" />
+      <CheckBox layoutX="42.0" layoutY="302.0" mnemonicParsing="false" selected="true" text="When uploaded, show  image as 100 * 100" />
+      <CheckBox layoutX="39.0" layoutY="327.0" mnemonicParsing="false" selected="true" text="Show some properties, like name, type, size, and path" />
+      <CheckBox layoutX="42.0" layoutY="352.0" mnemonicParsing="false" selected="true" text="Utilized Image IO to allow users convert image to .jpg or .png" />
+      <CheckBox layoutX="42.0" layoutY="377.0" mnemonicParsing="false" selected="true" text="Downloaded converted images in &quot;resources/edu/neu/zequn/view&quot; folder" />
+   </children>
+</Pane>
